@@ -2,36 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505d8e3e-bee7-4a0d-8cdf-393f637bf510" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lorca/bounds.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lorca/go/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lorca/go/lib.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lorca/go/lib.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lorca/go/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lorca/go_ffi.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lorca/main.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lorca/observable_hash.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lorca/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lorca-ruby.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lorca-ruby.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/go_ffi_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/main_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/observable_hash_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/vanilla/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/vanilla/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/vanilla/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/vanilla/main.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/BrowserMetrics/BrowserMetrics-5FFE111F-517C.pma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Crashpad/metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Crashpad/settings.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/CrashpadMetrics-active.pma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Code Cache/js/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Code Cache/js/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Code Cache/wasm/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Code Cache/wasm/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Cookies-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Extension State/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Extension State/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Extension State/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Extension State/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Extension State/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Favicons" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Favicons-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/History" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/History-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Local Storage/leveldb/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Local Storage/leveldb/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Local Storage/leveldb/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Local Storage/leveldb/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Local Storage/leveldb/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Login Data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Login Data-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Media History" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Media History-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Network Persistent State" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Platform Notifications/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Platform Notifications/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Platform Notifications/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Platform Notifications/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Platform Notifications/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Preferences" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Reporting and NEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Reporting and NEL-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Secure Preferences" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Session Storage/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Session Storage/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Session Storage/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Session Storage/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Session Storage/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Site Characteristics Database/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Site Characteristics Database/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Site Characteristics Database/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Site Characteristics Database/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Site Characteristics Database/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/js/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/js/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/wasm/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/wasm/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Network Persistent State" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Platform Notifications/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Platform Notifications/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Platform Notifications/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Platform Notifications/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Platform Notifications/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Sync Data/LevelDB/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Sync Data/LevelDB/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Sync Data/LevelDB/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Sync Data/LevelDB/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Sync Data/LevelDB/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Top Sites" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Top Sites-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/TransportSecurity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Visited Links" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Web Data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Default/Web Data-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/DevToolsActivePort" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Last Version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/Local State" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html/chrome_shutdown_ms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lorca/bounds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lorca/bounds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lorca/go/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lorca/go/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lorca/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lorca/main.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +104,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Ruby File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -65,6 +130,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -75,6 +141,7 @@
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -112,6 +179,19 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -278,7 +358,16 @@
       <workItem from="1610401564465" duration="268000" />
       <workItem from="1610402057197" duration="196000" />
       <workItem from="1610402275430" duration="35839000" />
+      <workItem from="1610482481807" duration="4114000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1610482578478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610482578478</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +375,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_add_function_works.rcov" NAME="test_that_add_function_works Coverage Results" MODIFIED="1610477712583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />

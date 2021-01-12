@@ -29,7 +29,6 @@ module Lorca
     end
 
     def self.from_json(str)
-      p str
       hash = JSON.parse str, symbolize_names: true
       unless %w[normal maximized minimized fullscreen].include? hash[:windowState]
         raise('windowState enum isnt valid, its ' + hash[:windowState].to_s)

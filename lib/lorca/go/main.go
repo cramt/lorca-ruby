@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"net/url"
 	"sync"
 	"unsafe"
@@ -69,7 +68,6 @@ func lorca_window_bind(id C.int, name *C.char, argsAmount C.int, f unsafe.Pointe
 	ui.Bind(string(C.GoString(name)), func(str string) string {
 		cstr := C.ruby_function_str_str_caller(f, C.CString(str))
 		s := string(C.GoString(cstr))
-		fmt.Println(s)
 		return s
 	})
 }

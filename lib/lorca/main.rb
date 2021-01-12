@@ -20,6 +20,7 @@ module Lorca
     def initialize(url, dir, width, height, *chrome_process_args, id: nil, headless: false)
       chrome_process_args.push('--headless') if headless
       @closed = false
+
       if id
         @inner_index = id.to_i
       else
@@ -40,6 +41,7 @@ window.Lorca = createProxy(window.LORCA_INTERNALS)
 window.LorcaInitialized = true
 })()"
       end
+      @keep_alive_thread = Thread.new { Lorca::GoFFI.lorca_window_wait_for_done(@inner_index) }
     end
 
     def set_bindings(bindings)
@@ -82,7 +84,6 @@ if(!#{x}) {
     def eval(js)
       js = js.to_s
       json = GoFFI.lorca_window_eval(@inner_index, js)
-      p json
       if json.empty?
         nil
       else
@@ -108,7 +109,7 @@ if(!#{x}) {
 
     def wait_for_done(&block)
       Thread.new do
-        Lorca::GoFFI.lorca_window_wait_for_done(@inner_index)
+        @keep_alive_thread.join
         block.call
       end
       self
@@ -120,6 +121,10 @@ if(!#{x}) {
 
     def bounds
       Bounds.from_json Lorca::GoFFI.lorca_get_window_bounds(@inner_index).to_s
+    end
+
+    def join
+      @keep_alive_thread.join
     end
 
     private
