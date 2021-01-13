@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative './lib/lorca/main'
+require_relative './lib/lorca'
 
 Gem::Specification.new do |spec|
   spec.name          = 'lorca-ruby'

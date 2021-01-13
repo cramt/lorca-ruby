@@ -2,98 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505d8e3e-bee7-4a0d-8cdf-393f637bf510" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/vanilla/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/vanilla/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/vanilla/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/vanilla/main.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/BrowserMetrics/BrowserMetrics-5FFE111F-517C.pma" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Crashpad/metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Crashpad/settings.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/CrashpadMetrics-active.pma" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Code Cache/js/index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Code Cache/js/index-dir/the-real-index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Code Cache/wasm/index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Code Cache/wasm/index-dir/the-real-index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Cookies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Cookies-journal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Extension State/000003.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Extension State/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Extension State/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Extension State/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Extension State/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Favicons" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Favicons-journal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/History" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/History-journal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Local Storage/leveldb/000003.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Local Storage/leveldb/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Local Storage/leveldb/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Local Storage/leveldb/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Local Storage/leveldb/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Login Data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Login Data-journal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Media History" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Media History-journal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Network Persistent State" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Platform Notifications/000003.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Platform Notifications/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Platform Notifications/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Platform Notifications/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Platform Notifications/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Preferences" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Reporting and NEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Reporting and NEL-journal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Secure Preferences" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Session Storage/000003.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Session Storage/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Session Storage/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Session Storage/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Session Storage/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Site Characteristics Database/000003.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Site Characteristics Database/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Site Characteristics Database/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Site Characteristics Database/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Site Characteristics Database/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/js/index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/js/index-dir/the-real-index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/wasm/index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/wasm/index-dir/the-real-index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb/000003.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Network Persistent State" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Platform Notifications/000003.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Platform Notifications/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Platform Notifications/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Platform Notifications/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Platform Notifications/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage/000003.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Sync Data/LevelDB/000003.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Sync Data/LevelDB/CURRENT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Sync Data/LevelDB/LOCK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Sync Data/LevelDB/LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Sync Data/LevelDB/MANIFEST-000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Top Sites" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Top Sites-journal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/TransportSecurity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Visited Links" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Web Data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Default/Web Data-journal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/DevToolsActivePort" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Last Version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/Local State" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html/chrome_shutdown_ms.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lorca.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lorca/document.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lorca/bounds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lorca/bounds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lorca/go/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lorca/go/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/vanilla/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/vanilla/main.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/lorca/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lorca/main.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lorca-ruby.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/lorca-ruby.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/go_ffi_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/go_ffi_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/main_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/observable_hash_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/observable_hash_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,16 +22,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Ruby File" />
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Ruby File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../programs/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="KotlinMultiplatform">
     <allAvailableExecutables />
@@ -154,49 +81,19 @@
       <recent name="D:\projects\lorca-ruby\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_that_lorca_is_initialized">
-    <configuration type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
-      <module name="lorca-ruby" />
-      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" IGNORE_RCOVRT="true" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="D:\projects\lorca-ruby\test\ruby_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_that_ffi_works$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_that_document_trigger_...">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_that_add_function_works" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+    <configuration name="test_that_add_function_work..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="lorca-ruby" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
@@ -214,7 +111,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/main_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_that_add_function_works$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_that_add_function_works_after_load$" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -224,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_that_bindings_objects_..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+    <configuration name="test_that_document_DOMConte..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="lorca-ruby" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
@@ -242,7 +139,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/main_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_that_bindings_objects_work$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_that_document_DOMContentLoaded_works$" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -252,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_that_bindings_work" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+    <configuration name="test_that_document_trigger_..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="lorca-ruby" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
@@ -270,7 +167,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/main_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_that_bindings_work$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_that_document_trigger_works$" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -280,7 +177,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_that_hash_bindings_set..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+    <configuration name="test_that_editing_bindings_..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="lorca-ruby" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
@@ -298,7 +195,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/main_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_that_hash_bindings_sets_internals$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_that_editing_bindings_works$" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -338,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_that_document_trigger_..." />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_that_document_DOMConte..." />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_that_add_function_work..." />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_that_editing_bindings_..." />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_that_lorca_is_initialized" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_that_hash_bindings_set..." />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_that_bindings_objects_..." />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_that_bindings_work" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_that_add_function_works" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +255,8 @@
       <workItem from="1610401564465" duration="268000" />
       <workItem from="1610402057197" duration="196000" />
       <workItem from="1610402275430" duration="35839000" />
-      <workItem from="1610482481807" duration="4114000" />
+      <workItem from="1610482481807" duration="6880000" />
+      <workItem from="1610536024301" duration="10450000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1610482578478</created>
@@ -367,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610482578478</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cleanup and an example">
+      <created>1610487160916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610487160916</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +281,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="cleanup and an example" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup and an example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_add_function_works.rcov" NAME="test_that_add_function_works Coverage Results" MODIFIED="1610477712583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
@@ -385,14 +291,18 @@
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_bindings_work.rcov" NAME="test_that_bindings_work Coverage Results" MODIFIED="1610477920298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_lorca_is_initialized.rcov" NAME="test_that_lorca_is_initialized Coverage Results" MODIFIED="1610477955296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_nested_hashes_fire.rcov" NAME="test_that_nested_hashes_fire Coverage Results" MODIFIED="1610453200051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
+    <SUITE FILE_PATH="coverage/lorca_ruby@test_that_add_function_work___.rcov" NAME="test_that_add_function_work... Coverage Results" MODIFIED="1610576876022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_listen_fires.rcov" NAME="test_that_listen_fires Coverage Results" MODIFIED="1610453115550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_initialization_do___.rcov" NAME="test_that_initialization_do... Coverage Results" MODIFIED="1610477645260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
+    <SUITE FILE_PATH="coverage/lorca_ruby@test_that_editing_bindings____.rcov" NAME="test_that_editing_bindings_... Coverage Results" MODIFIED="1610571831373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_observable_hash_i___.rcov" NAME="test_that_observable_hash_i... Coverage Results" MODIFIED="1610477468937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_load_works.rcov" NAME="test_that_load_works Coverage Results" MODIFIED="1610477652219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_hash_bindings_set___.rcov" NAME="test_that_hash_bindings_set... Coverage Results" MODIFIED="1610477950348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
+    <SUITE FILE_PATH="coverage/lorca_ruby@test_that_document_trigger____.rcov" NAME="test_that_document_trigger_... Coverage Results" MODIFIED="1610578230130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_set_bounds.rcov" NAME="test_that_set_bounds Coverage Results" MODIFIED="1610477655299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_ffi_works.rcov" NAME="test_that_ffi_works Coverage Results" MODIFIED="1610467232849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_window_can_eval.rcov" NAME="test_that_window_can_eval Coverage Results" MODIFIED="1610477478224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_bindings_objects____.rcov" NAME="test_that_bindings_objects_... Coverage Results" MODIFIED="1610477934169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
+    <SUITE FILE_PATH="coverage/lorca_ruby@test_that_document_DOMConte___.rcov" NAME="test_that_document_DOMConte... Coverage Results" MODIFIED="1610578212106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
   </component>
 </project>

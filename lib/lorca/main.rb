@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
-$LOAD_PATH.unshift File.expand_path('../', __dir__)
 require 'lorca/go_ffi'
 require 'lorca/observable_hash'
 require 'lorca/version'
+require 'lorca/bounds'
+require 'lorca/document'
 require 'json'
 require 'securerandom'
 
@@ -16,35 +17,25 @@ module Lorca
     end
 
     attr_reader :closed
+    attr_reader :document
 
-    def initialize(url, dir, width, height, *chrome_process_args, id: nil, headless: false)
-      chrome_process_args.push('--headless') if headless
+    def initialize(url, width, height, document_listeners = Document.listener_identifiers.dup, dir = '', *chrome_process_args, id: nil, headless: false)
       @closed = false
-
+      @document = Document.new
+      @existing_bindings = Hash.new
+      @document_listeners = document_listeners
       if id
         @inner_index = id.to_i
       else
+        chrome_process_args.push('--headless') if headless
+        url = 'file:///' + url if File.exist?(url)
         @inner_index = GoFFI.lorca_new_window(url.to_s, dir.to_s, width.to_i, height.to_i, chrome_process_args.to_json)
-        eval "(()=>{
-const createProxy = (ref) => {
-  return new Proxy(()=>{}, {
-    get: (_, value) => {
-      return createProxy(ref[value])
-    },
-    apply: (_a, _b, args) => {
-      return (async()=>JSON.parse(await ref(JSON.stringify(args))))()
-    }
-  })
-}
-window.LORCA_INTERNALS = {}
-window.Lorca = createProxy(window.LORCA_INTERNALS)
-window.LorcaInitialized = true
-})()"
+        post_load
       end
       @keep_alive_thread = Thread.new { Lorca::GoFFI.lorca_window_wait_for_done(@inner_index) }
     end
 
-    def set_bindings(bindings)
+    def set_bindings(bindings = {})
       bindings = Utilities::ObservableHash.new bindings
       bindings.listen do |object, key, value|
         name = [key.to_s]
@@ -52,7 +43,7 @@ window.LorcaInitialized = true
           name.unshift object.name
           object = object.parent
         end
-        name = name.filter { |x| !x.empty? }
+        name = name.filter { |x| !x.empty? }.unshift 'LORCA_INTERNALS'
         create_bindings name, value
       end
       create_hash_binding bindings
@@ -60,7 +51,9 @@ window.LorcaInitialized = true
     end
 
     def create_bindings(name, value)
-      name = name.split '.' if name.is_a?(String)
+      name = name.join '.' if name.is_a?(Array)
+      @existing_bindings[name] = value
+      name = name.split "."
       id = '______' + SecureRandom.uuid.to_s.gsub('-', '_')
       GoFFI.lorca_window_bind(@inner_index, id, value.arity, FFI::Function.new(:pointer, [:string]) do |x|
         FFI::MemoryPointer.from_string(value.call(JSON.parse(x)).to_json)
@@ -99,11 +92,13 @@ if(!#{x}) {
 
     def load_file(path)
       Lorca::GoFFI.lorca_load_file(@inner_index, path.to_s)
+      post_load
       self
     end
 
     def load_string(html)
       Lorca::GoFFI.lorca_load_string(@inner_index, html.to_s)
+      post_load
       self
     end
 
@@ -137,6 +132,43 @@ if(!#{x}) {
         else
           create_bindings k, v
         end
+      end
+    end
+
+    def post_load
+      eval "(()=>{
+const createProxy = (ref) => {
+  return new Proxy(()=>{}, {
+    get: (_, value) => {
+      return createProxy(ref[value])
+    },
+    apply: (_a, _b, args) => {
+      return (async()=>JSON.parse(await ref(JSON.stringify(args))))()
+    }
+  })
+}
+window.LORCA_INTERNALS = {}
+window.Lorca = createProxy(window.LORCA_INTERNALS)
+window.LorcaInitialized = true
+})()"
+      h = {
+        internal: {
+          document: {
+            listeners: @document_listeners.map do |x|
+              [x, proc { |y| @document.emit x, y }]
+            end.to_h
+          }
+        }
+      }
+      set_bindings(h)
+      js = @document_listeners.map do |name|
+        name = name.to_s
+        "document.addEventListener(\"#{name}\", (...c) => Lorca.internal.document.listeners.#{name}(...c));"
+      end.join('')
+      js = "(()=>{#{js}})()"
+      eval js
+      @existing_bindings.each do |(key, val)|
+        create_bindings key, val
       end
     end
   end

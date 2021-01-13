@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative './test_helper'
-require 'lorca/main'
+require 'lorca'
 require 'ffi'
 
 module Lorca

@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
 require_relative './test_helper'
-require 'lorca/main'
+require 'lorca'
 require 'ffi'
-require 'lorca/bounds'
 
 module Lorca
   class MainTest < Minitest::Spec
@@ -12,8 +11,8 @@ module Lorca
       Lorca::UI.get_all.map(&:close)
     end
 
-    def new_ui
-      UI.new '', '', 280, 480, headless: true
+    def new_ui(headless = true)
+      UI.new '', 280, 480, headless: headless
     end
 
     def test_that_initialization_dont_crash
@@ -35,7 +34,7 @@ module Lorca
     end
 
     def test_that_set_bounds
-      ui = UI.new '', '', 280, 480
+      ui = UI.new '', 280, 480
       ui.bounds = Lorca::Bounds.new 120, 120, 140, 140, :normal
       bounds = ui.bounds
       assert_equal 120, bounds.left
@@ -84,6 +83,37 @@ module Lorca
                         }
                       })
       assert_equal 4, ui.eval('window.Lorca.add(2,2)')
+    end
+
+    def test_that_add_function_works_after_load
+      ui = new_ui
+      ui.set_bindings({
+                        add: proc { |x|
+                          x[0] + x[1]
+                        }
+                      })
+      ui.load_string("<p>2</p>")
+      assert_equal 4, ui.eval('window.Lorca.add(2,2)')
+    end
+
+    def test_that_editing_bindings_works
+      ui = new_ui
+      bindings = ui.set_bindings
+      bindings[:add] = proc { |x| x[0] + x[1] }
+      assert_equal 4, ui.eval('window.Lorca.add(2,2)')
+    end
+
+    def test_that_document_trigger_works
+      ui = new_ui false
+      wait_thread = Thread.new { sleep 5 }
+      got_there = false
+      ui.document.on_any do |_|
+        got_there = true
+        wait_thread.kill
+      end
+      ui.load_string("<p>2</p>")
+      wait_thread.join
+      assert got_there
     end
   end
 end

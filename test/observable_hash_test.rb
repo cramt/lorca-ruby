@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative './test_helper'
-require 'lorca/observable_hash'
+require 'lorca'
 
 module Lorca
   class ObservableHashTest < Minitest::Test
