@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505d8e3e-bee7-4a0d-8cdf-393f637bf510" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/lorca.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lorca/document.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/vanilla/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/vanilla/main.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lorca/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lorca/main.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lorca-ruby.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/lorca-ruby.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/go_ffi_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/go_ffi_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/main_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/main_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/observable_hash_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/observable_hash_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +248,7 @@
       <workItem from="1610402057197" duration="196000" />
       <workItem from="1610402275430" duration="35839000" />
       <workItem from="1610482481807" duration="6880000" />
-      <workItem from="1610536024301" duration="10450000" />
+      <workItem from="1610536024301" duration="11621000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1610482578478</created>
@@ -272,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610487160916</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="document events">
+      <created>1610578523948</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610578523948</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +281,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial" />
     <MESSAGE value="cleanup and an example" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup and an example" />
+    <MESSAGE value="document events" />
+    <option name="LAST_COMMIT_MESSAGE" value="document events" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_add_function_works.rcov" NAME="test_that_add_function_works Coverage Results" MODIFIED="1610477712583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
@@ -298,7 +298,7 @@
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_observable_hash_i___.rcov" NAME="test_that_observable_hash_i... Coverage Results" MODIFIED="1610477468937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_load_works.rcov" NAME="test_that_load_works Coverage Results" MODIFIED="1610477652219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_hash_bindings_set___.rcov" NAME="test_that_hash_bindings_set... Coverage Results" MODIFIED="1610477950348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
-    <SUITE FILE_PATH="coverage/lorca_ruby@test_that_document_trigger____.rcov" NAME="test_that_document_trigger_... Coverage Results" MODIFIED="1610578230130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
+    <SUITE FILE_PATH="coverage/lorca_ruby@test_that_document_trigger____.rcov" NAME="test_that_document_trigger_... Coverage Results" MODIFIED="1610578431261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_set_bounds.rcov" NAME="test_that_set_bounds Coverage Results" MODIFIED="1610477655299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_ffi_works.rcov" NAME="test_that_ffi_works Coverage Results" MODIFIED="1610467232849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_window_can_eval.rcov" NAME="test_that_window_can_eval Coverage Results" MODIFIED="1610477478224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
