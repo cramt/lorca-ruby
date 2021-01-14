@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505d8e3e-bee7-4a0d-8cdf-393f637bf510" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extconf.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lorca-ruby.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/lorca-ruby.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lorca/go_ffi.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lorca/go_ffi.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,6 +237,7 @@
       <workItem from="1610482481807" duration="6880000" />
       <workItem from="1610536024301" duration="11621000" />
       <workItem from="1610660077470" duration="1592000" />
+      <workItem from="1610661932339" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1610482578478</created>
@@ -263,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610578523948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="post install script">
+      <created>1610661957465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610661957465</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +278,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="cleanup and an example" />
     <MESSAGE value="document events" />
-    <option name="LAST_COMMIT_MESSAGE" value="document events" />
+    <MESSAGE value="post install script" />
+    <option name="LAST_COMMIT_MESSAGE" value="post install script" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lorca_ruby@test_that_add_function_works.rcov" NAME="test_that_add_function_works Coverage Results" MODIFIED="1610477712583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lorca-ruby" />
