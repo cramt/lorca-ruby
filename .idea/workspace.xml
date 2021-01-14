@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505d8e3e-bee7-4a0d-8cdf-393f637bf510" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extconf.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lorca-ruby.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/lorca-ruby.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,17 +76,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_that_document_trigger_...">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test_that_add_function_work..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="lorca-ruby" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -249,6 +240,7 @@
       <workItem from="1610402275430" duration="35839000" />
       <workItem from="1610482481807" duration="6880000" />
       <workItem from="1610536024301" duration="11621000" />
+      <workItem from="1610660077470" duration="1592000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1610482578478</created>

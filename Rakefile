@@ -10,6 +10,31 @@ Rake::TestTask.new(:test) do |t|
   t.test_files = FileList['test/**/*_test.rb']
 end
 
+task :setup do
+  if go_installed
+    puts "installing lorca go package"
+    puts `go get github.com/zserge/lorca`
+    puts "compiling internal go ffi binary"
+    compile_internal_go_ffi
+  else
+    puts "go not installed"
+  end
+end
+
 task :compile do
-  `go build -o lib/lorca/go/lib.so -buildmode=c-shared lib/lorca/go/main.go`
+  compile_internal_go_ffi
+end
+
+def compile_internal_go_ffi
+  require_relative './build'
+end
+
+def go_installed
+  installed = true
+  begin
+    `go version`
+  rescue Errno::ENOENT
+    installed = false
+  end
+  installed
 end
