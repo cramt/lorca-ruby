@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="505d8e3e-bee7-4a0d-8cdf-393f637bf510" name="Default Changelist" comment="">
+    <list default="true" id="505d8e3e-bee7-4a0d-8cdf-393f637bf510" name="Default Changelist" comment="added ffi as runtime dependency">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
@@ -59,13 +59,14 @@
     <property name="configurable..is.expanded" value="false" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/examples/ts-react" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\lorca-ruby\examples\ts-react" />
       <recent name="D:\projects\lorca-ruby\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -74,17 +75,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_that_document_trigger_...">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test_that_add_function_work..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="lorca-ruby" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -252,7 +242,8 @@
       <workItem from="1610660077470" duration="1592000" />
       <workItem from="1610661932339" duration="1520000" />
       <workItem from="1610664774658" duration="2014000" />
-      <workItem from="1610998127082" duration="1330000" />
+      <workItem from="1610998127082" duration="1622000" />
+      <workItem from="1611000970790" duration="1872000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1610482578478</created>
