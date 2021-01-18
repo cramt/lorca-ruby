@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     lorca-ruby (0.1.0)
+      ffi
 
 GEM
   remote: https://rubygems.org/
@@ -14,7 +15,6 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  ffi
   lorca-ruby!
   minitest (~> 5.0)
   rake (~> 12.0)
