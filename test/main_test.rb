@@ -46,23 +46,23 @@ module Lorca
 
     def test_that_bindings_work
       ui = new_ui
-      ui.create_bindings 'add', proc { |_x|
+      ui.create_bindings('add', proc { |_x|
         'gayass'
-      }
+      })
       assert_equal '"gayass"', ui.eval('add("2")')
     end
 
     def test_that_bindings_objects_work
       ui = new_ui
-      ui.create_bindings 'add.add', proc { |_x|
+      ui.create_bindings('add.add', proc { |_x|
         'gayass'
-      }
+      })
       assert_equal '"gayass"', ui.eval('add.add("2")')
     end
 
     def test_that_hash_bindings_sets_internals
       ui = new_ui
-      ui.set_bindings({
+      ui.bindings({
                         test: proc { |_x|
                           'aaa'
                         }
@@ -77,7 +77,7 @@ module Lorca
 
     def test_that_add_function_works
       ui = new_ui
-      ui.set_bindings({
+      ui.bindings({
                         add: proc { |x|
                           x[0] + x[1]
                         }
@@ -87,18 +87,18 @@ module Lorca
 
     def test_that_add_function_works_after_load
       ui = new_ui
-      ui.set_bindings({
+      ui.bindings({
                         add: proc { |x|
                           x[0] + x[1]
                         }
                       })
-      ui.load_string("<p>2</p>")
+      ui.load_string('<p>2</p>')
       assert_equal 4, ui.eval('window.Lorca.add(2,2)')
     end
 
     def test_that_editing_bindings_works
       ui = new_ui
-      bindings = ui.set_bindings
+      bindings = ui.bindings
       bindings[:add] = proc { |x| x[0] + x[1] }
       assert_equal 4, ui.eval('window.Lorca.add(2,2)')
     end
@@ -111,7 +111,7 @@ module Lorca
         got_there = true
         wait_thread.kill
       end
-      ui.load_string("<p>2</p>")
+      ui.load_string('<p>2</p>')
       wait_thread.join
       assert got_there
     end

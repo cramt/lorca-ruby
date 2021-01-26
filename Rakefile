@@ -12,12 +12,12 @@ end
 
 task :setup do
   if go_installed
-    puts "installing lorca go package"
+    puts 'installing lorca go package'
     puts `go get github.com/zserge/lorca`
-    puts "compiling internal go ffi binary"
+    puts 'compiling internal go ffi binary'
     compile_internal_go_ffi
   else
-    puts "go not installed"
+    puts 'go not installed'
   end
 end
 

@@ -3,14 +3,10 @@
 require 'lorca/version'
 require 'ffi'
 
-
-
 module Lorca
   module GoFFI
     lib_file = File.join(File.dirname(__FILE__), 'go/lib.so')
-    unless File.exist? lib_file
-      require_relative '../../build'
-    end
+    require_relative '../../build' unless File.exist? lib_file
     extend FFI::Library
     ffi_lib lib_file
     attach_function :my_add, %i[int int], :int

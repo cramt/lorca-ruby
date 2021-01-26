@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505d8e3e-bee7-4a0d-8cdf-393f637bf510" name="Default Changelist" comment="added ffi as runtime dependency">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.rb" beforeDir="false" afterPath="$PROJECT_DIR$/build.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/vanilla/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/vanilla/main.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extconf.rb" beforeDir="false" afterPath="$PROJECT_DIR$/extconf.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lorca/go_ffi.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lorca/go_ffi.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lorca/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lorca/main.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lorca-ruby.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/lorca-ruby.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/main_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,6 +250,9 @@
       <workItem from="1610664774658" duration="2014000" />
       <workItem from="1610998127082" duration="1622000" />
       <workItem from="1611000970790" duration="1872000" />
+      <workItem from="1611260385129" duration="9000" />
+      <workItem from="1611606203264" duration="24000" />
+      <workItem from="1611693969269" duration="697000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1610482578478</created>

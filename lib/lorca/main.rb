@@ -22,7 +22,7 @@ module Lorca
     def initialize(url, width, height, document_listeners = Document.listener_identifiers.dup, dir = '', *chrome_process_args, id: nil, headless: false)
       @closed = false
       @document = Document.new
-      @existing_bindings = Hash.new
+      @existing_bindings = {}
       @document_listeners = document_listeners
       if id
         @inner_index = id.to_i
@@ -53,7 +53,7 @@ module Lorca
     def create_bindings(name, value)
       name = name.join '.' if name.is_a?(Array)
       @existing_bindings[name] = value
-      name = name.split "."
+      name = name.split '.'
       id = '______' + SecureRandom.uuid.to_s.gsub('-', '_')
       GoFFI.lorca_window_bind(@inner_index, id, value.arity, FFI::Function.new(:pointer, [:string]) do |x|
         FFI::MemoryPointer.from_string(value.call(JSON.parse(x)).to_json)
